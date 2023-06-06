@@ -32,6 +32,6 @@ class MainApp extends ReactiveStatelessWidget {
 
 final router = RM.injectNavigator(
   routes: {
-    '/': (data) => const HomePage(),
+    '/': (_) => const HomePage(),
   },
 );
